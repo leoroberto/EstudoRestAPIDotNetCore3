@@ -8,12 +8,12 @@ using Microsoft.AspNetCore.Mvc;
 namespace DevIO.API.Controllers
 {
     [Route("api/fornecedores")]
-    public abstract class FornecedoresController : MainController
+    public class FornecedoresController : MainController
     {
         private readonly IFornecedorRepository _fornecedorRepository;
         private readonly IMapper _mapper;
 
-        protected FornecedoresController(IFornecedorRepository fornecedorRepository, IMapper mapper)
+        public FornecedoresController(IFornecedorRepository fornecedorRepository, IMapper mapper)
         {
             _fornecedorRepository = fornecedorRepository;
             _mapper = mapper;
