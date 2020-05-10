@@ -50,10 +50,12 @@ namespace DevIO.API.Controllers
 
             var fornecedor = _mapper.Map<Fornecedor>(fornecedorViewModel);
             var result = await _fornecedorService.Adicionar(fornecedor);
+            var fornecedorVm = _mapper.Map<FornecedorViewModel>(fornecedor);
+            
 
             if (!result) return BadRequest();
             
-            return Ok(fornecedor);
+            return Ok(fornecedorVm);
         }
         
         [HttpPut("{id:guid}")]
@@ -63,10 +65,11 @@ namespace DevIO.API.Controllers
 
             var fornecedor = _mapper.Map<Fornecedor>(fornecedorViewModel);
             var result = await _fornecedorService.Atualizar(fornecedor);
+            var fornecedorVm = _mapper.Map<FornecedorViewModel>(fornecedor);
 
             if (!result) return BadRequest();
             
-            return Ok(fornecedor);
+            return Ok(fornecedorVm);
         }
 
         [HttpDelete("{id:guid}")]
