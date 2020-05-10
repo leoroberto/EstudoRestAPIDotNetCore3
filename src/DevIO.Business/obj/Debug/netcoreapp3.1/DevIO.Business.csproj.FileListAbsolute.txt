@@ -1,9 +1,0 @@
-/Users/leonardorobertomarinhofarias/RiderProjects/MinhaAPICompleta/src/DevIO.Business/bin/Debug/netcoreapp3.1/DevIO.Business.deps.json
-/Users/leonardorobertomarinhofarias/RiderProjects/MinhaAPICompleta/src/DevIO.Business/bin/Debug/netcoreapp3.1/DevIO.Business.dll
-/Users/leonardorobertomarinhofarias/RiderProjects/MinhaAPICompleta/src/DevIO.Business/bin/Debug/netcoreapp3.1/DevIO.Business.pdb
-/Users/leonardorobertomarinhofarias/RiderProjects/MinhaAPICompleta/src/DevIO.Business/obj/Debug/netcoreapp3.1/DevIO.Business.csprojAssemblyReference.cache
-/Users/leonardorobertomarinhofarias/RiderProjects/MinhaAPICompleta/src/DevIO.Business/obj/Debug/netcoreapp3.1/DevIO.Business.csproj.CoreCompileInputs.cache
-/Users/leonardorobertomarinhofarias/RiderProjects/MinhaAPICompleta/src/DevIO.Business/obj/Debug/netcoreapp3.1/DevIO.Business.AssemblyInfoInputs.cache
-/Users/leonardorobertomarinhofarias/RiderProjects/MinhaAPICompleta/src/DevIO.Business/obj/Debug/netcoreapp3.1/DevIO.Business.AssemblyInfo.cs
-/Users/leonardorobertomarinhofarias/RiderProjects/MinhaAPICompleta/src/DevIO.Business/obj/Debug/netcoreapp3.1/DevIO.Business.dll
-/Users/leonardorobertomarinhofarias/RiderProjects/MinhaAPICompleta/src/DevIO.Business/obj/Debug/netcoreapp3.1/DevIO.Business.pdb
