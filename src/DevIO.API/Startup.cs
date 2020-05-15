@@ -40,6 +40,12 @@ namespace DevIO.API
             
             services.AddControllers();
             
+            //Suprimir a validação da ViewModel Automática, pois queremos personalizar os erros
+            services.Configure<ApiBehaviorOptions>(options =>
+            {
+                options.SuppressModelStateInvalidFilter = true;
+            });
+            
             //Injetando as dependencias
             services.ResolveDependencies();
         }
